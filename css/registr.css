@@ -1,0 +1,175 @@
+body{
+    background-color: #1F1F40;
+}
+
+@font-face {
+    font-family: TT Commons;
+    src: url(../fonts/TTCommons-Bold.ttf);
+    src: url(../fonts/TTCommons-Regular.ttf);
+   }
+
+.vhod{
+    position:absolute;
+    width: 946px;
+    height: 525px;
+    left: 247px;
+    top: 237px;
+    background: #212347;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.reg{
+    width: 463px;
+    height: 525px;
+    color:white;
+    font-family: "TT Commons";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 52px;
+    }
+
+
+.registration{
+    width: 463px;
+    height: 525px;
+    left: 730px;
+    top: 237px;
+    background: linear-gradient(180deg, rgba(22, 115, 239, 0.7) 0%, rgba(36, 192, 241, 0.5) 100%), url(../img/reg1.png) center center/cover no-repeat;
+    border-radius: 24px;
+}
+
+form{
+    width: 50%;
+    text-align: center;
+}
+
+
+.auth{
+    color: white;
+    font-family: "TT Commons";
+    font-weight: Bold;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 31px;
+}
+
+
+.lab1{
+    position: relative;
+    right:67px;
+}
+
+
+.lab2{
+    position: relative;
+    right: 109px;
+}
+
+
+label{
+    font-family: "TT Commons";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #6D6F92;
+}
+
+.form_input_log{
+    background: #292C5F;
+    border-radius: 0 5px 5px 0;
+    width: 226px;
+    height: 48px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border: none;
+    font-family: "TT Commons";
+    font-size: 18px;
+    color: #AAAAAA;
+    outline: none;
+    text-indent: 10px;
+}
+
+.form_input_pass{
+    background: #292C5F;
+    border-radius: 0 5px 5px 0;
+    width: 226px;
+    height: 48px;
+    margin-bottom: 33px;
+    margin-top: 5px;
+    border: none;
+    font-family: "TT Commons";
+    font-size: 18px;
+    color: #AAAAAA;
+    outline: none;
+    text-indent: 10px;
+}
+
+
+.btn{
+    background: url(../img/button.png);
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    font-family: "TT Commons";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 34px;
+    border: none;
+}
+
+
+.help{
+    font-family: "TT Commons";
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #24C0F2;
+    margin-left: 15px;
+}
+
+
+ .us{
+    width: 45px;
+    height: 50px;
+    background-color: #3e64ff;
+    background-image: url(../icon/user/user.png);
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+    background-position: center;
+    margin-top: 5px;
+ }
+
+
+ .pas{
+    width: 45px;
+    height: 50px;
+    background-color: #3e64ff;
+    background-image: url(../icon/key/key.png);
+    background-repeat: no-repeat;
+    border-radius: 5px 0 0 5px;
+    background-position: center;
+    margin-top: 5px;
+ }
+
+
+ .block1, .block2{
+     display: flex;
+     justify-content: center;
+ }
+
+ 
